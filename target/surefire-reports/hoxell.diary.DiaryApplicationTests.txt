@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: hoxell.diary.DiaryApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.422 s - in hoxell.diary.DiaryApplicationTests

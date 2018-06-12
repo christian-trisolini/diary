@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Hoxell</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+
+
+</head>
+<body>
+
+<div>
+    <a lass="back-rooms-overview" href="http://dante.localhost/manage/include/menu.cfm">
+        back
+    </a>
+
+    <fieldset th:each="component : ${components}">
+        <h3 th:text="${component.getName()}"></h3>
+        <p th:each="element : ${component.getElements()}">
+            <span th:text="${element.title}"></span>
+        </p>
+
+    </fieldset>
+
+</div>
+
+</body>
+</html>

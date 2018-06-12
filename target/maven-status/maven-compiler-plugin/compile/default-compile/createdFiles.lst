@@ -1,0 +1,16 @@
+hoxell\diary\database\repositories\ElementRepository.class
+hoxell\diary\config\DBLoader.class
+hoxell\diary\config\WebSecurityConfig.class
+hoxell\diary\control\DiaryController.class
+hoxell\diary\database\repositories\GroupRepository.class
+hoxell\diary\ServletInitializer.class
+hoxell\diary\model\Diary.class
+hoxell\diary\model\element\Section.class
+hoxell\diary\model\components\Component.class
+hoxell\diary\model\element\Element.class
+hoxell\diary\database\repositories\ComponentRepository.class
+hoxell\diary\database\repositories\SectionRepository.class
+hoxell\diary\database\repositories\DiaryRepository.class
+hoxell\diary\database\DiaryService.class
+hoxell\diary\model\element\Group.class
+hoxell\diary\DiaryApplication.class
